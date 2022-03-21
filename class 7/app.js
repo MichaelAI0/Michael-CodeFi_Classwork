@@ -1,4 +1,5 @@
 /////=====Exercise One=====\\\\\\\
+/*
 
 function redundantReturn(str) {
   
@@ -12,6 +13,7 @@ redundantReturn("Code");
 const myVariable = redundantReturn("Code")
 console.log (myVariable())
 
+*/
 ////////=====Exercise Two======\\\\\\\\\\
 /*
 function parent(x) {
@@ -32,3 +34,16 @@ closure();
 // function remembers x.
 */
 
+/////=======Practice====\\\\\\\
+
+function greeting(greeting) {
+  return function hammerTime(name) {
+  return `${name}! ${greeting}`;
+  };
+ }
+
+ const basicWelcome = greeting("Welcome.");
+const friendlyWelcome = greeting("So glad to see you again!");
+
+console.log( basicWelcome("John"));
+console.log( friendlyWelcome("John"));

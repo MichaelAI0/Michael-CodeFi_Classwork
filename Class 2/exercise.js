@@ -1,4 +1,4 @@
-const foods =[
+/*const foods =[
   {
   name: "Sandwich",
   price: 15,
@@ -86,3 +86,5 @@ for (let food of foods) {
   foodList.appendChild(foodListItem);
 }
 */
+
+////===Exercise two
